@@ -249,8 +249,8 @@ int deleteFirst(listNode* h) {
 		return 0;
 	}
 
-	h->rlink = p->llink;	//첫번째 노드의 연결을 끊는다.
-	p->llink->rlink = h;
+	h->rlink = p->rlink;	//첫번째 노드의 연결을 끊는다.
+	p->rlink->llink = h;
 	free(p);	//첫번째 노드 메모리 할당 해제
 
 	return 1;
