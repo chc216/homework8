@@ -310,7 +310,6 @@ int insertNode(listNode* h, int key) {
 		}
 		p = p->rlink;
 	}
-	printf("asdf");
 	Node->rlink = h;	//삽입할 위치가 마지막이거나 리스트에 노드가 존재하지 않을 경우
 	Node->llink = p;
 	p->rlink = Node;
@@ -341,5 +340,3 @@ int deleteNode(listNode* h, int key) {
 	return 0;
 }
 
-
-//이종연 배연복 피하기
