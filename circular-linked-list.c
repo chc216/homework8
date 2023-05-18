@@ -43,6 +43,8 @@ int main()
 	int key;
 	listNode* headnode=NULL;
 
+	printf("[-----[2022078014]	[최 현 철]-----]\n\n");
+
 	do{
 		printf("----------------------------------------------------------------\n");
 		printf("                  Doubly Circular Linked List                   \n");
